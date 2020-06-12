@@ -1,0 +1,152 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+ background-image: url(wallpapers_February2020_ipad.png);
+
+ background-attachment: fixed;
+ background-size: cover;
+
+ font-family:  Arial, Helvetica, sans-serif;
+}
+.login-box{
+ width: 320px;
+ height: 720px;
+ background: rgba(0, 0, 0, 0.5);
+ color: #fff;
+ position: relative;
+ bottom: -400px;
+ left : 350px;
+transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ padding: 70px 30px;
+}
+.login-box1{
+  width: 320px;
+  height: 720px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: relative;
+  bottom: 320px;
+  left : 850px;
+ transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+ }
+
+h1{
+ margin: 0;
+ padding: 0 0 20px;
+ color: white;
+ text-align: center;
+ font-size: 22px;
+}
+.login-box p{
+ margin: 0;
+ padding: 0;
+ font-weight: bold;
+}
+.login-box input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"], input[type="email"]
+{
+ border: none;
+ border-bottom: 1px solid #fff;
+ /*background: transparent;*/
+ outline: none;
+ height: 40px;
+ color: rgb(8, 8, 8);
+ font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+ border: none;
+ outline: none;
+ height: 40px;
+ background: #1c8adb;
+ color: #fff;
+ font-size: 18px;
+ border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+ cursor: pointer;
+ background: #39dc79;
+ color: #000;
+}
+
+.login-box a{
+ text-decoration: none;
+ font-size: 14px;
+ color: #fff;
+}
+.login-box a:hover
+{
+ color: #39dc79;
+}
+
+.text {
+ background:rgba(252, 255, 255, 0.699);
+ color: rgba(8, 158, 146, 0.699);
+ font-size: 3vw; 
+ font-weight: bold;
+ margin: 0 auto;
+ padding: 10px;
+ width: 100%;
+ text-align: left;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ mix-blend-mode: screen;
+}
+
+
+.image-container {
+ 
+ background-size: cover;
+ position: relative;
+ height: 100px;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+form.example{
+  width: 520px;
+  height: 20px;
+ 
+  position: relative;
+ 
+
+ }
